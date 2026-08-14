@@ -100,3 +100,16 @@ print(nums) # Output: [50, 40, 30, 20, 10]
 
 fruits = ["apple", "mango", "banana", "mango"]
 print(fruits.count("mango")) # Output: 2 - how many times it appears
+
+
+
+
+
+# .clear() - Remove All Elements
+
+# Removes all items from the list, effectively making it an empty list. This method
+# modifies the list in place.
+
+my_list = ["apple", "banana", "cherry"]
+my_list.clear() # Removes all elements
+print(my_list) # Output: []
