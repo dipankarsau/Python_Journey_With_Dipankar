@@ -43,3 +43,60 @@ print(f"Popped: {popped_last}, List: {fruits}") # Output: Popped: banana, List: 
 
 popped_first = fruits.pop(0)
 print(f"Popped: {popped_first}, List: {fruits}") # Output: Popped: apple, List: ["kiwi”]
+
+
+
+# Sorting and Reversing Elements
+# .sort() - Sort In-Place
+# Sorts the elements of the list in ascending order directly, modifying the original list.
+
+nums = [40, 10, 30, 20, 50]
+# sorts in place, modifies original
+print(nums) # Output: [10, 20, 30, 40, 50]
+
+nums.sort()
+
+
+
+
+
+# .reverse() - Reverse In-Place
+# Reverses the order of elements in the list directly, modifying the original list.
+
+nums = [10, 20, 30, 40, 50] # Reset for example clarity
+# reverses in place
+print(nums) # Output: [50, 40, 30, 20, 10]
+
+nums.reverse()
+
+
+
+
+
+# Searching and counting Elements
+
+# index() - Find Element Index
+# Returns the index of the first occurrence of a specified value in the list.
+
+fruits = ["apple", "mango", "banana", "mango"]
+print(fruits.index("mango")) # Output: 1 - index of first occurrence
+
+
+
+
+
+# .sort(reverse=True) - Sort Descending
+# Sorts the list in descending order by setting the reverse parameter to True.
+
+nums = [10, 20, 30, 40, 50] # Reset for example clarity
+nums.sort(reverse=True) # sorts in descending order
+print(nums) # Output: [50, 40, 30, 20, 10]
+
+
+
+
+# .count() - Count Element Occurrences
+# Returns the number of times a specified value appears in the list.
+
+fruits = ["apple", "mango", "banana", "mango"]
+print(fruits.count("mango")) # Output: 2 - how many times it appears
