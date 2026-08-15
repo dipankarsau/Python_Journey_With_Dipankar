@@ -13,7 +13,7 @@ for i in  nums:
     if i <a:
         b=i
 print(f" the greatsr number is{a} ")
-print(f" the smaller number is{b} ")
+print(f" the smaller number is b{b} ")
 
     
         
