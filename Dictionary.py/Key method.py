@@ -4,7 +4,6 @@ maths={
     "comp":88,
     "hindi":43,
     "history":71,
-
 }
 total=0
 for subject in  maths.keys():
