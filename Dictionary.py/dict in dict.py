@@ -11,5 +11,8 @@ students = {
 # print(students["101"]["name"])
 # print(students["103"] ["name"])
 # print(students["103"]["detail"]["ph"])
+total=0
 for a, b in students.items():
+    total=total+b["age"]
     print(f"roll_no={a}, value={b['name']}, details={b['age']}")
+print(total)
