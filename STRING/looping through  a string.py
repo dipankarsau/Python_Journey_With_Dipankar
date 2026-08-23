@@ -4,7 +4,7 @@ n=len(name)
 for i in name:
     print(i)
 
-for i,v in enumerate(name):
+for i,v in enumerate(name, start=2):
     print(i,v,end =' ')
 for i in range(0,n):
     print(name[i])
