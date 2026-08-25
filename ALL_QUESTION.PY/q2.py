@@ -1,5 +1,7 @@
 #  Take two numbers as input from the user. Print their sum, difference,
 # product, and remainder.
+
+
 # a=int(input("enter a number:-"))
 # b=int(input("enter a number:-"))
 # print(a+b,a-b,a%b,a*b)
