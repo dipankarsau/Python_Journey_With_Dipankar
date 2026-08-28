@@ -10,7 +10,6 @@
 a=[1, 2, 3, 4, 5]
 n=len(a)
 new=[]
-for i in range(n,0,-1):
-    new.append(i)
+for i in range(n-1,-1,-1):
+    new.append(a[i])
 print(new)
-    
