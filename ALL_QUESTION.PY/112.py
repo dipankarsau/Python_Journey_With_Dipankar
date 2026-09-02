@@ -8,7 +8,7 @@ def most_common_word(text):
     most_word = ""
     max_count = 0
     for i in words:
-       count = i.count(i)
+       count = words.count(i)
 
        if count>max_count:
            max_count=count
@@ -16,7 +16,7 @@ def most_common_word(text):
     return most_word
 
 
-user = "Python is fun and python is easy"
+user = "Python is fun and python is easyyyyuuui"
 
 print(most_common_word(user))
            
