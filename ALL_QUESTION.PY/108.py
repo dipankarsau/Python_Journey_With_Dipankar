@@ -4,7 +4,7 @@
 # each word). Example: "Python is fun" -> "fun is Python".
 
 
-example="fun is python language"
+example="fun is python programing"
 example=example.split()
 example=example[::-1]
 print(" ".join(example))
