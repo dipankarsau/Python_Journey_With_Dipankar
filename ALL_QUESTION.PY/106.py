@@ -3,6 +3,6 @@
 # Take a paragraph as input. Print the count of unique words in it
 # (case insensitive).
 
-paragraph = "Python is great and Python is fun and learning Python is the best"
+paragraph = "Python is great and Python is fun and learning Python is the best option"
 paragraph=paragraph.split()
 print(len(set(paragraph)))
