@@ -19,7 +19,7 @@ def greet(name: str) -> str:
     return f"Hello, {name}"
 
 
-# List Type Annotation
+# List Type Annotation in python
 numbers: list[int] = [10, 20, 30, 40]
 names: list[str] = ["Rahul", "Anirudh", "David"]
 
