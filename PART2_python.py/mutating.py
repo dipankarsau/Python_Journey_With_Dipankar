@@ -1,3 +1,8 @@
+# Mutating
+# Mutating means changing the existing object itself.
+
+
+
 def mutating(x):
     x[0]=100
     print(f" the inside is {x}")
