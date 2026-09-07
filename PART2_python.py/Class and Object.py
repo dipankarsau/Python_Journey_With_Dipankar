@@ -1,25 +1,19 @@
 class Student:
-    name = ""
-    age = 0
-    gender = ""
-    roll_no = ""
-
-    def set_details(self, name: str, roll_no: str, age: int, gender: str):
-        self.name = name
-        self.roll_no = roll_no
-        self.age = age
-        self.gender = gender
-
+    def __init__(self,rollno:int,name:str,age:int,sec:str):
+        self.roll_no=rollno
+        self.name=name
+        self.age=age
+        self.sec=sec
+   
     def display_details(self):
         print(f"name = {self.name}")
         print(f"roll_no = {self.roll_no}")
         print(f"age = {self.age}")
-        print(f"gender = {self.gender}")
+        print(f"gender = {self.sec}")
 
 
-Student1 = Student()  
+Student1 = Student(21,"akash",22,"h")  
 
-Student1.set_details("akash", "1", 23, "male")
 Student1.display_details()
 
     
