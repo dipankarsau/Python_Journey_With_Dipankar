@@ -4,7 +4,8 @@ class Playlist:
 
     def Add(self, song):
         self.song.append(song)
-
+    def __len__(self):
+        return len(self.song)
 
 # Create Playlist object
 p = Playlist()
@@ -16,3 +17,4 @@ p.Add("Perfect")
 
 # Display playlist
 print(p.song)
+print(len(p))
