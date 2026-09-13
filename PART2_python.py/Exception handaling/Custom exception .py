@@ -5,7 +5,7 @@ def withdraw(balance,withdraw):
         raise InsufficientFundsError("not enough balance")
     print(f" remaning balance={balance-withdraw}")
 try:
-    withdraw(1000,abc)
+    withdraw(1000,5000)
 except InsufficientFundsError as e:
     print(e)
     print(type(e).__name__)
