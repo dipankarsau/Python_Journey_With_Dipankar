@@ -34,10 +34,13 @@ def task(name):
 print(" main program start\n")
 t1 = threading.Thread(target=task,args=("cooking",))
 t2 = threading.Thread(target=task,args=("braking",))
+t3 = threading.Thread(target=task,args=("swiming",))
 t1.start()
 t2.start()
+t3.start()
 t1.join()
 t2.join()
+t3.join()
 
 
 
