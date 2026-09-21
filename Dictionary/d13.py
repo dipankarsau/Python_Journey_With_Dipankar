@@ -6,7 +6,7 @@
 subjects = {
     "Math": 85,
     "English": 72,
-    "Python": 95,
+    "Python": 98,
     "DBMS": 80,
     "Java": 88,
     "Computer": 76
