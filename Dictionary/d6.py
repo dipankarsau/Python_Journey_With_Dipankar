@@ -3,7 +3,7 @@
 # marks. Loop through it and print the names of all students who achieved
 # a score above 75.
 students = {
-    "Akash": 82,
+    "Akash": 72,
     "Rahul": 68,
     "Priya": 91,
     "Amit": 74,
