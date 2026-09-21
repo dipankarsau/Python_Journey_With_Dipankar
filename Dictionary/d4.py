@@ -9,7 +9,7 @@
 
 
 capitals = {
-    "India": "New Delhi",
+    "India": "kolkata",
     "France": "Paris",
     "Japan": "Tokyo",
     "Germany": "Berlin",
