@@ -3,7 +3,7 @@ employees = {
     "Akash": 35000,
     "Rahul": 28000,
     "Amit": 45000,
-    "Riya": 32000,
+    "Riya": 3200,
     "Suman": 50000,
     "Karan": 40000
 }
