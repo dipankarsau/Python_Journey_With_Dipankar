@@ -9,7 +9,7 @@ subjects = {
     "English": 72,
     "Python": 95,
     "DBMS": 80,
-    "Java": 88,
+    "Java": 80,
     "Computer": 76
 }
 highest=max(subjects,key=lambda x:subjects[x])
