@@ -6,7 +6,7 @@ student={
     "name":"akash",
     "age":21,
     "city":"kolkata",
-    "marks":[80,70,35]
+    "marks":[80,70,35,40]
 
 
 }
