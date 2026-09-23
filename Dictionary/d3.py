@@ -10,7 +10,7 @@ products = {
     "laptop": 50000,
     "phone": 25000,
     "headphone": 3000,
-    "keyboard": 1500
+    "keyboard": 2500
 }
 
 user = input("enter your product: ")
