@@ -11,5 +11,5 @@ def greet(d1,d2):
         d3.update(d2)
         return d3
 d1 = {"a": 1, "b": 2, "c": 3}
-d2 = {"d": 4, "e": 5, "f": 6}
+d2 = {"d": 4, "e": 5, "f": 7}
 print(greet(d1,d2))
