@@ -21,6 +21,8 @@ class InventoryManagement:
     def add_stock(self,quantitiy):
         if quantitiy>0:
             self.__stock=self.__stock+quantitiy
+        else: 
+            print(" invalid quantity")
     def sell_product(self, quantity):
         if quantity<=0:
             print(" invalid quantity")
